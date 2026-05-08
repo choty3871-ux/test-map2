@@ -19,6 +19,21 @@ df = pd.read_csv("인천광역시 남동구_고등학교_20240325.csv",encoding=
 
 m = folium.Map(
     location=[37.579653, 126.977017]
+    zoom_start =12
+    
 )
 
+folium.Marker(
+    location = [37.579653, 126.977017],
+    popup  = "남동고등학교",
+    tooltip = '클릭해보세요.',
+    icon = folium.Icon(
+        color = 'green',
+        icon = 'info-sign'
+    )
+    
+).add_to(m)
+st_folium(m, width = 700, height = 500)
+
+ 
  
