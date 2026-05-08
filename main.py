@@ -13,5 +13,7 @@ st.text("안녕~ 인천남동고등학교 여러분 첫 페이지를 만드셨�
 st.markdown("# 큰 제목")
 st.markdown("## 작은 제목")
 st.markdown("**굵은 글씨** 와 *이텔릭체* ")
-
+st.header("헤더입니다")
+st.serveheader("서브헤더입니다")
+st.notion("노션")
  
