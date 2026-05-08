@@ -18,7 +18,7 @@ st.header("헤더입니다")
 df = pd.read_csv("인천광역시 남동구_고등학교_20240325.csv",encoding='cp949')
 
 m = folium.Map(
-    location=[37.579653, 126.977017]
+    location=[37.579653, 126.977017],
     zoom_start =12
     
 )
