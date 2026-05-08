@@ -7,6 +7,8 @@ import pandas as pd
 st.set_page_config(page_title = "남동고 등산 메이트")
 
 st.title("2026 학교 등산 행사 안내 지도")
+st.markdown("우리 동아리가  직접 발로 뛰어만든 코스 가이드입니다.")
+st.markdown("왼쪽 메뉴에서 코스를 서낵하고 행사에 참여해 주세요.")
 st.text("안녕~ 인천남동고등학교 여러분 첫 페이지를 만드셨습니다.")
 
-st.text("hello")
+ 
