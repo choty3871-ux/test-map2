@@ -15,5 +15,11 @@ st.markdown("## 작은 제목")
 st.markdown("**굵은 글씨** 와 *이텔릭체* ")
 st.header("헤더입니다")
 
-st.notion("노션")
+df = pd.read_csv("인천광역시 남동구_고등학교_20240325.csv",encoding'cp949')
+
+
+ m = folium.Map(
+    location=[37.579653, 126.977017]
+)
+
  
