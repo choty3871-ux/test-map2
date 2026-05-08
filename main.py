@@ -1,6 +1,6 @@
 import streamlit as st
 import folium 
-import streamlit_folium import st_folium
+from streamlit_folium import st_folium
 import pandas as pd
 
 
